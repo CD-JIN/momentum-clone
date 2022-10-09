@@ -1,0 +1,35 @@
+@import "reset.css";
+@import "component/header.css";
+@import "component/login-form.css";
+@import "component/todo-form.css";
+
+body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    color: white;
+}
+
+#clock {
+    height: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    font-weight: 600;
+    flex-direction: column;
+}
+
+#clock span:first-child {
+    font-size: 40px;
+}
+
+#clock span {
+    margin-bottom: 10px;
+}
+
+.hidden {
+    display: none;
+}

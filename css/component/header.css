@@ -1,0 +1,28 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header__column {
+    margin: 25px;
+    font-size: 20px;
+}
+
+.header__column i {
+    margin-left: 10px;
+    width: 15px;
+    height: 15px;
+}
+
+.header__column:last-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-weight: 600;
+}
+
+.header__column:last-child span {
+    margin: 4px 0;
+}
